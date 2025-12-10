@@ -64,14 +64,6 @@ export default function Header({ title = 'Scheduling', onCreateClick }: HeaderPr
       </div>
 
       <div className="flex items-center space-x-4">
-        <button
-          onClick={onCreateClick}
-          className="bg-calendly-blue text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-calendly-blue-dark flex items-center space-x-1"
-        >
-          <span>+ Create</span>
-          <span>▼</span>
-        </button>
-
         <div className="relative" ref={dropdownRef}>
           <button
             onClick={() => setShowDropdown(!showDropdown)}
