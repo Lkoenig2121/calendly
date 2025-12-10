@@ -4,6 +4,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Calendly - Schedule meetings',
   description: 'Schedule meetings efficiently',
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
 }
 
 export default function RootLayout({
